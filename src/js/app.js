@@ -63,7 +63,7 @@ function render(variables = {}) {
           <h3>${city},${country}</h3>
           <ul class="${position}">
             <li><a href="https://twitter.com/${twitter}" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="ttps://github.com/"${github}" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://github.com/"${github}" target="_blank"><i class="fab fa-github"></i></a></li>
             <li><a href="https://linkedin.com/in/${linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${instagram}" target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
