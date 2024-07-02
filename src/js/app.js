@@ -36,21 +36,12 @@ function render(variables = {}) {
       ? "position-left"
       : "position-right";
   let twitter =
-    variables.twitter !== null
-      ? variables.twitter
-      : "https://twitter.com/4geeksacademy";
-  let github =
-    variables.github !== null
-      ? variables.github
-      : "https://github.com/4geeksacademy";
+    variables.twitter !== null ? variables.twitter : "4geeksacademy";
+  let github = variables.github !== null ? variables.github : "4geeksacademy";
   let linkedin =
-    variables.linkedin !== null
-      ? variables.linkedin
-      : "https://linkedin.com/school/";
+    variables.linkedin !== null ? variables.linkedin : "4geeks-academy-latino/";
   let instagram =
-    variables.instagram !== null
-      ? variables.instagram
-      : "https://instagram.com/4geeksacademy";
+    variables.instagram !== null ? variables.instagram : "4geeksacademy";
   let role = variables.role !== null ? variables.role : "Web Developer";
   let city = variables.city !== null ? variables.city : "Miami";
   let country = variables.country !== null ? variables.country : " USA";
